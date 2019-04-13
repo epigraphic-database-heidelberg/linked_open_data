@@ -1,0 +1,218 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix epi: <https://edh-www.adw.uni-heidelberg.de/edh/ontology#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_monument/altar> a epi:TypeOfMonument ;
+    skos:prefLabel "Altar"@en ;
+    dcterms:description "Monument in the classical form of an altar, e. g. votive or funerary altar; also: middle part, corona or crepido of an altar in several parts; not: separately worked inscription slab, which is attached to the middle section (see below Tabula)"@en ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Altar> ;
+    owl:sameAs <https://www.eagle-network.eu/voc/objtyp/lod/29> , <https://vocab.getty.edu/aat/300003725> , <https://www.wikidata.org/wiki/Q101687> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_monument/architectural_member> a epi:TypeOfMonument ;
+    skos:prefLabel "Architectural member"@en ;
+    dcterms:description "Part of an architectural structure e.g. an architrave, column; also in the case of floors and walls; not: Block, Fountain, Honorific / Grave / Votive Column, Honorific / Votive Arch, Grave Monument, Paving Stone, Fortification, Tabula; Tip: a search for mosaics, dipinti and graffiti is possible in the field 'Engraving technique' in the advanced search."@en ;
+    owl:sameAs <https://www.eagle-network.eu/voc/objtyp/lod/35> , <http://vocab.getty.edu/aat/300000885> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_monument/bar> a epi:TypeOfMonument ;
+    skos:prefLabel "Bar"@en ;
+    dcterms:description "Metal bar, commonly with owner/artist inscription or indication of weight, mostly stamped"@en ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Ingot> ;
+    owl:sameAs <https://www.eagle-network.eu/voc/objtyp/lod/1251> , <https://www.wikidata.org/wiki/Q83893> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_monument/base> a epi:TypeOfMonument ;
+    skos:prefLabel "Base"@en ;
+    dcterms:description "Base that does not carry a statue (but rather e.g. a sculpture or a votive offering); not: separately worked inscription tabula, which is attached to the middle section (see below Tabula), a specific plinth designed to be placed in a base (see below Sculpture), low base worked as one piece together with the object on the base (see below Sculpture), in the case of Bust, Herm, Relief (if the relief depiction is predominant); cf. on the other hand: Sculpture, Statue Base"@en ;
+    owl:sameAs <https://www.eagle-network.eu/voc/objtyp/lod/53> , <http://vocab.getty.edu/aat/300001656> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_monument/bench> a epi:TypeOfMonument ;
+    skos:prefLabel "Bench"@en ;
+    dcterms:description ""@en ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Bench_(furniture)> ;
+    owl:sameAs <https://www.eagle-network.eu/voc/objtyp/lod/254> , <http://vocab.getty.edu/aat/300038494> , <https://www.wikidata.org/wiki/Q204776> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_monument/block> a epi:TypeOfMonument ;
+    skos:prefLabel "Block"@en ;
+    dcterms:description "Block formed building stone of a piece of architecture (with a depth of more than ca. 20 cm); cf. on the other hand: Architectural Member, Tabula"@en ;
+    owl:sameAs <https://www.eagle-network.eu/voc/objtyp/lod/189> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_monument/bust> a epi:TypeOfMonument ;
+    skos:prefLabel "Bust"@en ;
+    dcterms:description "Depiction of head and torso in full sculpture or relief; cf. on the other hand: Base, Sculpture, Statue Base"@en ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Bust_(sculpture)> ;
+    owl:sameAs <https://www.eagle-network.eu/voc/objtyp/lod/135> , <https://www.wikidata.org/wiki/Q17489160> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_monument/cippus> a epi:TypeOfMonument ;
+    skos:prefLabel "Cippus"@en ;
+    dcterms:description "Column, usually cylindrical or cubic, often with crest, e.g. boundary stone of a burial area or a city (boundary Cippus) or grave Cippus, also so-called 'stèle en forme de maison; cf. on the other hand: Stele. Tip: a search for Grave inscription and Boundary inscription is possible in the field „Type of Inscription“ in the advanced search.'; "@en ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Cippus> ;
+    owl:sameAs <https://www.eagle-network.eu/voc/objtyp/lod/85> , <http://vocab.getty.edu/aat/300006963> , <https://www.wikidata.org/wiki/Q1752223> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_monument/cliff> a epi:TypeOfMonument ;
+    skos:prefLabel "Cliff"@en ;
+    dcterms:description "Natural cliff containing an inscriptio, also with a dedicated inscription field"@en ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Cliff> ;
+    owl:sameAs <https://www.eagle-network.eu/voc/objtyp/lod/85> , <http://vocab.getty.edu/aat/300008749> , <https://www.wikidata.org/wiki/Q107679> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_monument/cupa> a epi:TypeOfMonument ;
+    skos:prefLabel "Cupa"@en ;
+    dcterms:description "Funerary monument, barrel-shaped or half-cylindric design; cf. on the other hand: Sarcophagus"@en ;
+    owl:sameAs <https://www.eagle-network.eu/voc/objtyp/lod/112> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_monument/diptych> a epi:TypeOfMonument ;
+    skos:prefLabel "Diptych"@en ;
+    dcterms:description "Small inscription consisting of two parallel, hinged inscription tablets, e.g. writing tablets or consular Diptycha; also Triptychs; cf. on the other hand: Instrumentum domesticum, Tabula, Military diploma, Stele (with two parallel inscription fields)"@en ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Diptych> ;
+    owl:sameAs <https://www.eagle-network.eu/voc/objtyp/lod/118> , <https://www.wikidata.org/wiki/Q475476> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_monument/fortification> a epi:TypeOfMonument ;
+    skos:prefLabel "Fortification"@en ;
+    dcterms:description "City wall or city gate (archway thoroughfare built into the wall); cf. on the other hand: Honorific / Votive Arch"@en ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Fortification> ;
+    owl:sameAs <https://www.eagle-network.eu/voc/objtyp/lod/67> , <http://vocab.getty.edu/aat/300006888> , <https://www.wikidata.org/wiki/Q57821> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_monument/fountain> a epi:TypeOfMonument ;
+    skos:prefLabel "Fountain"@en ;
+    dcterms:description "Part of a well or fountain, e.g. well rim, impoundment of a spring or inscription bearer with integrated water outlet"@en ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Fountain> ;
+    owl:sameAs <https://www.eagle-network.eu/voc/objtyp/lod/40> , <http://vocab.getty.edu/aat/300006179> , <https://www.wikidata.org/wiki/Q483453> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_monument/grave_monument> a epi:TypeOfMonument ;
+    skos:prefLabel "Grave monument"@en ;
+    dcterms:description "Monumental tomb, e.g. Aedicula grave, Columbarium, so-called Igel columns"@en ;
+    owl:sameAs <https://www.eagle-network.eu/voc/objtyp/lod/230> , <http://vocab.getty.edu/aat/300005926> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_monument/herm> a epi:TypeOfMonument ;
+    skos:prefLabel "Herm"@en ;
+    dcterms:description "Free-standing monument in the form of a pillar with superimposed bust, e.g. as a boundary marker or honorific monument (portrait Herm); cf. on the other hand: Cippus, Bust, Stele"@en ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Herma> ;
+    owl:sameAs <https://www.eagle-network.eu/voc/objtyp/lod/132> , <http://vocab.getty.edu/aat/300047170> , <https://www.wikidata.org/wiki/Q376693> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_monument/honorific_votive_arch> a epi:TypeOfMonument ;
+    skos:prefLabel "Honorific/votive arch"@en ;
+    dcterms:description "Free standing Honorific / Votive Arch; cf. on the other hand: Fortification"@en ;
+    owl:sameAs <https://www.eagle-network.eu/voc/objtyp/lod/20> , <http://vocab.getty.edu/aat/300007002> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_monument/honorific_grave_votive_column> a epi:TypeOfMonument ;
+    skos:prefLabel "Honorific/grave/votive column"@en ;
+    dcterms:description "Free standing Column or pillar with Honorific-, Grave- or Votive inscription; cf. on the other hand: Architectural Member, Grave Monument"@en ;
+    owl:sameAs <https://www.eagle-network.eu/voc/objtyp/lod/102> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_monument/instrumentum_domesticum> a epi:TypeOfMonument ;
+    skos:prefLabel "Instrumentum domesticum"@en ;
+    dcterms:description "Objects of everyday life, also for official use e.g amphoras, lead pipes, branding irons, weights, lamps, spoons, furniture fittings, millstones, sundials, weighing scales; not: Diptych, Jewellery (e.g. seal rings), Tessera, Weapon; cf. on the other hand: Instrumentum militare, Instrumentum sacrum"@en ;
+    owl:sameAs <https://www.eagle-network.eu/voc/objtyp/lod/140> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_monument/instrumentum_militare> a epi:TypeOfMonument ;
+    skos:prefLabel "Instrumentum militare"@en ;
+    dcterms:description "Objects from the military milieu that are not offensive weapons, e.g. ornamental disc, armour parts, parade armoury; not: Tessera, Weapon; cf. on the other hand: Instrumentum domesticum, Instrumentum sacrum"@en ;
+    owl:sameAs <https://www.eagle-network.eu/voc/objtyp/lod/141> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_monument/instrumentum_sacrum> a epi:TypeOfMonument ;
+    skos:prefLabel "Instrumentum sacrum"@en ;
+    dcterms:description "Objects from the area of cultic practice e.g. cult basin, patera, simpulum, cross; small sculpted objects (if not Sculpture or a statuette) e.g ex voto, votive object in the form of a house; not: Sculpture, Statue, Tessera; cf. on the other hand: Instrumentum domesticum, Instrumentum militare"@en ;
+    owl:sameAs <https://www.eagle-network.eu/voc/objtyp/lod/142> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_monument/jewellery> a epi:TypeOfMonument ;
+    skos:prefLabel "Jewellery"@en ;
+    dcterms:description "also: gem, seal ring; cf. on the other hand: Instrumentum domesticum"@en ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Jewellery> ;
+    owl:sameAs <https://www.eagle-network.eu/voc/objtyp/lod/163> , <http://vocab.getty.edu/aat/300209286> , <https://www.wikidata.org/wiki/Q161439> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_monument/mile_leaguestone> a epi:TypeOfMonument ;
+    skos:prefLabel "Mile-/Leaguestone"@en ;
+    dcterms:description "Free-standing, usually cylindrical, column as road marker, e.g. with statement of distance, mention of repairs or honorific inscription"@en ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Milestone> ;
+    owl:sameAs <https://www.eagle-network.eu/voc/objtyp/lod/89> , <http://vocab.getty.edu/aat/300006973> , <https://www.wikidata.org/wiki/Q10145> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_monument/olla> a epi:TypeOfMonument ;
+    skos:prefLabel "Olla"@en ;
+    dcterms:description ""@en ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Olla_(Roman_pot)> ;
+    owl:sameAs <https://www.eagle-network.eu/voc/objtyp/lod/182> , <http://vocab.getty.edu/aat/300199780> , <https://www.wikidata.org/wiki/Q498753> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_monument/paving_stone> a epi:TypeOfMonument ;
+    skos:prefLabel "Paving stone"@en ;
+    dcterms:description "Plastering of a street or of a square; cf. on the other hand: Architectural Member"@en ;
+    owl:sameAs <https://www.eagle-network.eu/voc/objtyp/lod/190> , <http://vocab.getty.edu/aat/300002088> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_monument/relief> a epi:TypeOfMonument ;
+    skos:prefLabel "Relief"@en ;
+    dcterms:description "Relief with an inscription on the frame or in the field of depiction e.g. Mithras relief, chest gravestone; only if the relief depiction is predominant; cf. on the other hand: Base, Stele. Tip: a search for inscriptions with reliefs is possible by selecting the option 'Decoration' or via the field 'Commentary' in the advanced search"@en ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Relief> ;
+    owl:sameAs <https://www.eagle-network.eu/voc/objtyp/lod/24> , <http://vocab.getty.edu/aat/300047230> , <https://www.wikidata.org/wiki/Q245117> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_monument/sarcophagus> a epi:TypeOfMonument ;
+    skos:prefLabel "Sarcophagus"@en ;
+    dcterms:description "Box-shaped stone coffin for the reception of the corpse or the cremated remains, usually consisting of a box-shaped lower part and lid; cf. on the other hand: Urn, Cupa"@en ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Sarcophagus> ;
+    owl:sameAs <https://www.eagle-network.eu/voc/objtyp/lod/214> , <http://vocab.getty.edu/aat/300005947> , <https://www.wikidata.org/wiki/Q48634> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_monument/sculpture> a epi:TypeOfMonument ;
+    skos:prefLabel "Sculpture"@en ;
+    dcterms:description "Non anthropomorphic full sculpture; also Statuette; inscription on the Sculpture itself, on the specific plinth designed to be placed in a base, low base worked as one piece together with the sculpture; cf. on the other hand: Instrumentum sacrum, Statue, Base"@en ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Sculpture> , <https://www.wikidata.org/wiki/Q11634> ;
+    owl:sameAs <https://www.eagle-network.eu/voc/objtyp/lod/224> , <http://vocab.getty.edu/aat/300047090> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_monument/shield> a epi:TypeOfMonument ;
+    skos:prefLabel "Shield"@en ;
+    dcterms:description "Round shield with or without a bust"@en ;
+    owl:sameAs <https://www.eagle-network.eu/voc/objtyp/lod/94> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_monument/slab> a epi:TypeOfMonument ;
+    skos:prefLabel "Slab"@en ;
+    dcterms:description "'Tabula' used horizontally for covering (e.g. a fossa); cf. on the other hand: Tabula"@en ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Stone_slab> ;
+    owl:sameAs <https://www.eagle-network.eu/voc/objtyp/lod/309> , <http://vocab.getty.edu/aat/300001208> , <https://www.wikidata.org/wiki/Q27624922> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_monument/statue> a epi:TypeOfMonument ;
+    skos:prefLabel "Statue"@en ;
+    dcterms:description "Anthropomorphic full sculpture depicting the full figure; also statuette; inscription on the statue itself (e.g. on the support of the statue), on the plinth used for placement in a statue base, low base worked as one piece together with the Statue; cf. on the other hand: Instrumentum sacrum, Sculpture, Statue Base"@en ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Statue> ;
+    owl:sameAs <https://www.eagle-network.eu/voc/objtyp/lod/241> , <http://vocab.getty.edu/aat/300047600> , <https://www.wikidata.org/wiki/Q179700> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_monument/statue_base> a epi:TypeOfMonument ;
+    skos:prefLabel "Statue base"@en ;
+    dcterms:description "Base for a statue; also: middle part, corona or crepido of a standard statue base; not: separately worked inscription tabula, which is fixed onto the middle section (see also Tabula), the plinth used specifically for placement in a statue base (see below Statue), low base worked as one piece together with the Statue (see below Statue); cf. on the other hand: Base"@en ;
+    owl:sameAs <https://www.eagle-network.eu/voc/objtyp/lod/57> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_monument/stele> a epi:TypeOfMonument ;
+    skos:prefLabel "Stele"@en ;
+    dcterms:description "tall, rectangular, free standing 'Tabula'; usually with an epitaph; also when accompanied by a relief; cf. on the other hand: Relief, Tabula, Cippus"@en ;
+    owl:sameAs <https://www.eagle-network.eu/voc/objtyp/lod/250> , <http://vocab.getty.edu/aat/300007023> , <https://www.wikidata.org/wiki/Q178743> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_monument/table> a epi:TypeOfMonument ;
+    skos:prefLabel "Table"@en ;
+    dcterms:description "Table, e.g. containing hollows marked by an inscription for the measurement of units of volume; also trapezophoroi of tables"@en ;
+    owl:sameAs <https://www.eagle-network.eu/voc/objtyp/lod/157> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_monument/tabula> a epi:TypeOfMonument ;
+    skos:prefLabel "Tabula"@en ;
+    dcterms:description "tabula which is attached vertically to a monument (e.g. on a base, statue base, altar or entablature of a building) (with a depth of up to ca. 20 cm); also: small tablets such as wax tablets (e.g the so-called tabulae Pompeianae) or bronze tablets (e.g. military diplomas); not: Diptych; cf. on the other hand: Architectural Member, Base, Block, Slab, Statue Base, Stele, Tessera"@en ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Stele> ;
+    owl:sameAs <https://www.eagle-network.eu/voc/objtyp/lod/257>  .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_monument/tessera> a epi:TypeOfMonument ;
+    skos:prefLabel "Tessera"@en ;
+    dcterms:description "small pendant or label; also a votive tablet; cf. on the other hand: instrumentum domesticum, instrumentum militare, instrumentum sacrum. Tip: a search for Defixiones and Military diplomas is possible in the field 'Type of Inscription' in the advanced search."@en ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Tessera> ;
+    owl:sameAs <https://www.eagle-network.eu/voc/objtyp/lod/276> , <https://www.wikidata.org/wiki/Q2484793> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_monument/tile> a epi:TypeOfMonument ;
+    skos:prefLabel "Tile"@en ;
+    dcterms:description "Building material made from burnt clay, mostly with stamped or scratched owner/artist inscription"@en ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Tile> ;
+    owl:sameAs <https://www.eagle-network.eu/voc/objtyp/lod/147> , <http://vocab.getty.edu/aat/300010463> , <https://www.wikidata.org/wiki/Q468402> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_monument/urn> a epi:TypeOfMonument ;
+    skos:prefLabel "Urn"@en ;
+    dcterms:description "a less than life-size like vessel for human remains; also: urn, ossuarium"@en ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Urn> ;
+    owl:sameAs <https://www.eagle-network.eu/voc/objtyp/lod/78> , <http://vocab.getty.edu/aat/300124808> , <https://www.wikidata.org/wiki/Q11083119> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_monument/weapon> a epi:TypeOfMonument ;
+    skos:prefLabel "Weapon"@en ;
+    dcterms:description "Offensive weapon, e.g. dagger, sword, glans plumbea; cf. on the other hand: instrumentum militare"@en ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Weapon> ;
+    owl:sameAs <https://www.eagle-network.eu/voc/objtyp/lod/42> , <http://vocab.getty.edu/aat/300036926> , <https://www.wikidata.org/wiki/Q728> .
