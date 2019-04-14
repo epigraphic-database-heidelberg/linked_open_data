@@ -1,4 +1,4 @@
-}@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix osgeo: <http://data.ordnancesurvey.co.uk/ontology/geometry/> .
 @prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
