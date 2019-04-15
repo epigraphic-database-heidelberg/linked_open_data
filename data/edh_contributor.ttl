@@ -1,181 +1,173 @@
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix osgeo: <http://data.ordnancesurvey.co.uk/ontology/geometry/> .
-@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
-@prefix gn: <http://www.geonames.org/ontology#> .
-@prefix lawd: <http://lawd.info/ontology/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix epi: <https://edh-www.adw.uni-heidelberg.de/edh/ontology#> .
 @prefix gndo: <http://d-nb.info/standards/elementset/gnd#> .
 
 <https://edh-www.adw.uni-heidelberg.de/edh/contributor/bigi> a epi:Contributor , foaf:person ;
-  foaf:familyName "Bigi" ;
-  foaf:givenName "Francesca" ;
-  foaf:title "Dr." ; 
-  gndo:gender "f" ;
-  foaf:mbox "frabigi@googlemail.com" .
+    foaf:familyName "Bigi" ;
+    foaf:givenName "Francesca" ;
+    foaf:title "Dr." ;
+    gndo:gender "f" ;
+    foaf:mbox "frabigi@googlemail.com" .
 
 <https://edh-www.adw.uni-heidelberg.de/edh/contributor/bodard> a epi:Contributor , foaf:person ;
-  foaf:familyName "Bodard" ;
-  foaf:givenName "Gabriel" ;
-  foaf:title "Dr." ;
-  gndo:gender "m" ;
-  owl:sameAs <http://viaf.org/viaf/106795353> , <http://d-nb.info/gnd/141495669> , <https://orcid.org/0000-0002-8566-6666> ;
-  foaf:mbox "Gabriel.bodard@sas.ac.uk" .
+    foaf:familyName "Bodard" ;
+    foaf:givenName "Gabriel" ;
+    foaf:title "Dr." ;
+    gndo:gender "m" ;
+    owl:sameAs <http://viaf.org/viaf/106795353> , <http://d-nb.info/gnd/141495669> , <https://orcid.org/0000-0002-8566-6666> ;
+    foaf:mbox "Gabriel.bodard@sas.ac.uk" .
 
 <https://edh-www.adw.uni-heidelberg.de/edh/contributor/boehm> a epi:Contributor , foaf:person ;
-  foaf:familyName "Böhm" ;
-  gndo:gender "f" ;
-  foaf:givenName "Gerhard" .
+    foaf:familyName "Böhm" ;
+    gndo:gender "f" ;
+    foaf:givenName "Gerhard" .
 
 <https://edh-www.adw.uni-heidelberg.de/edh/contributor/cimarosti> a epi:Contributor , foaf:person ;
-  gndo:gender "f" ;
-  foaf:familyName "Cimarosti" ;
-  foaf:givenName "Elena" .
+    gndo:gender "f" ;
+    foaf:familyName "Cimarosti" ;
+    foaf:givenName "Elena" .
 
 <https://edh-www.adw.uni-heidelberg.de/edh/contributor/cowey> a epi:Contributor , foaf:person ;
-  foaf:familyName "Cowey" ;
-  foaf:givenName "James" ;
-  foaf:title "Dr." ;
-  owl:sameAs <http://viaf.org/viaf/311071466> , <http://d-nb.info/gnd/122839293> ;
-  gndo:gender "m" ;
-  foaf:mbox "james.cowey@urz.uni-heidelberg.de" .
+    foaf:familyName "Cowey" ;
+    foaf:givenName "James" ;
+    foaf:title "Dr." ;
+    owl:sameAs <http://viaf.org/viaf/311071466> , <http://d-nb.info/gnd/122839293> ;
+    gndo:gender "m" ;
+    foaf:mbox "james.cowey@urz.uni-heidelberg.de" .
 
 <https://edh-www.adw.uni-heidelberg.de/edh/contributor/dafferner> a epi:Contributor , foaf:person ;
-  gndo:gender "m" ;
-  foaf:familyName "Dafferner" ;
-  foaf:givenName "Andreas" .
+    gndo:gender "m" ;
+    foaf:familyName "Dafferner" ;
+    foaf:givenName "Andreas" .
 
 <https://edh-www.adw.uni-heidelberg.de/edh/contributor/ehmig> a epi:Contributor , foaf:person ;
-  foaf:familyName "Ehmig" ;
-  foaf:givenName "Ulrike" ;
-  owl:sameAs <http://viaf.org/viaf/19965200> , <http://d-nb.info/gnd/128742844> ;
-  gndo:gender "f" ;
-  foaf:title "Dr." .
+    foaf:familyName "Ehmig" ;
+    foaf:givenName "Ulrike" ;
+    owl:sameAs <http://viaf.org/viaf/19965200> , <http://d-nb.info/gnd/128742844> ;
+    gndo:gender "f" ;
+    foaf:title "Dr." .
 
 <https://edh-www.adw.uni-heidelberg.de/edh/contributor/esch> a epi:Contributor , foaf:person ;
-  gndo:gender "f" ;
-  foaf:familyName "Esch" ;
-  foaf:givenName "Bernadette" .
+    gndo:gender "f" ;
+    foaf:familyName "Esch" ;
+    foaf:givenName "Bernadette" .
 
 <https://edh-www.adw.uni-heidelberg.de/edh/contributor/feraudi> a epi:Contributor , foaf:person ;
-  foaf:familyName "Feraudi-Gruénais" ;
-  foaf:givenName "Francisca" ;
-  foaf:title "Dr." ;
-  gndo:gender "f" ;
-  owl:sameAs <http://viaf.org/viaf/311072371> , <http://d-nb.info/gnd/123461235> ;
-  foaf:mbox "francisca.feraudi-gruenais@zaw.uni-heidelberg.de" .
+    foaf:familyName "Feraudi-Gruénais" ;
+    foaf:givenName "Francisca" ;
+    foaf:title "Dr." ;
+    gndo:gender "f" ;
+    owl:sameAs <http://viaf.org/viaf/311072371> , <http://d-nb.info/gnd/123461235> ;
+    foaf:mbox "francisca.feraudi-gruenais@zaw.uni-heidelberg.de" .
 
 <https://edh-www.adw.uni-heidelberg.de/edh/contributor/garcia> a epi:Contributor , foaf:person ;
-  gndo:gender "f" ;
-  foaf:familyName "García Morcillo" ;
-  foaf:givenName "Marta" .
+    gndo:gender "f" ;
+    foaf:familyName "García Morcillo" ;
+    foaf:givenName "Marta" .
 
 <https://edh-www.adw.uni-heidelberg.de/edh/contributor/graef> a epi:Contributor , foaf:person ;
-  foaf:familyName "Gräf" ;
-  foaf:givenName "Brigitte" ;
-  foaf:title "Dr." ;
-  gndo:gender "f" ;
-  owl:sameAs <http://viaf.org/viaf/257022015> , <http://d-nb.info/gnd/133296458> ;
-  foaf:mbox "brigitte.graef@zaw.uni-heidelberg.de" .
+    foaf:familyName "Gräf" ;
+    foaf:givenName "Brigitte" ;
+    foaf:title "Dr." ;
+    gndo:gender "f" ;
+    owl:sameAs <http://viaf.org/viaf/257022015> , <http://d-nb.info/gnd/133296458> ;
+    foaf:mbox "brigitte.graef@zaw.uni-heidelberg.de" .
 
 <https://edh-www.adw.uni-heidelberg.de/edh/contributor/grieshaber> a epi:Contributor , foaf:person ;
-  foaf:familyName "Grieshaber" ;
-  foaf:givenName "Frank" ;
-  foaf:title "Dr." ;
-  gndo:gender "m" ;
-  owl:sameAs <http://viaf.org/viaf/306039133> , <http://d-nb.info/gnd/129121576> , <https://orcid.org/0000-0002-2733-6941> ;
-  foaf:mbox "frank.grieshaber@zaw.uni-heidelberg.de" .
+    foaf:familyName "Grieshaber" ;
+    foaf:givenName "Frank" ;
+    foaf:title "Dr." ;
+    gndo:gender "m" ;
+    owl:sameAs <http://viaf.org/viaf/306039133> , <http://d-nb.info/gnd/129121576> , <https://orcid.org/0000-0002-2733-6941> ;
+    foaf:mbox "frank.grieshaber@zaw.uni-heidelberg.de" .
 
 <https://edh-www.adw.uni-heidelberg.de/edh/contributor/hartmann> a epi:Contributor , foaf:person ;
-  foaf:familyName "Hartmann" ;
-  foaf:givenName "Andreas" ;
-  gndo:gender "m" ;
-  foaf:title "Dr." .
+    foaf:familyName "Hartmann" ;
+    foaf:givenName "Andreas" ;
+    gndo:gender "m" ;
+    foaf:title "Dr." .
 
 <https://edh-www.adw.uni-heidelberg.de/edh/contributor/krempl> a epi:Contributor , foaf:person ;
-  foaf:familyName "Krempl" ;
-  foaf:givenName "" .
+    foaf:familyName "Krempl" ;
+    foaf:givenName "" .
 
 <https://edh-www.adw.uni-heidelberg.de/edh/contributor/krenn> a epi:Contributor , foaf:person ;
-  gndo:gender "f" ;
-  foaf:familyName "Krenn" ;
-  foaf:givenName "Katharina" .
+    gndo:gender "f" ;
+    foaf:familyName "Krenn" ;
+    foaf:givenName "Katharina" .
 
 <https://edh-www.adw.uni-heidelberg.de/edh/contributor/liuzzo> a epi:Contributor , foaf:person ;
-  foaf:familyName "Liuzzo" ;
-  foaf:givenName "Pietro" ;
-  foaf:title "Dr." ;
-  owl:sameAs <http://viaf.org/viaf/310697060> , <http://d-nb.info/gnd/1058838180> ;
-  gndo:gender "m" ;
-  foaf:mbox "pietro.liuzzo@uni-hamburg.de" .
+    foaf:familyName "Liuzzo" ;
+    foaf:givenName "Pietro" ;
+    foaf:title "Dr." ;
+    owl:sameAs <http://viaf.org/viaf/310697060> , <http://d-nb.info/gnd/1058838180> ;
+    gndo:gender "m" ;
+    foaf:mbox "pietro.liuzzo@uni-hamburg.de" .
 
 <https://edh-www.adw.uni-heidelberg.de/edh/contributor/lovenjak> a epi:Contributor , foaf:person ;
-  foaf:familyName "Lovenjak" ;
-  foaf:givenName "Milan" ;
-  gndo:gender "m" ;
-  foaf:title "Dr." .
+    foaf:familyName "Lovenjak" ;
+    foaf:givenName "Milan" ;
+    gndo:gender "m" ;
+    foaf:title "Dr." .
 
 <https://edh-www.adw.uni-heidelberg.de/edh/contributor/marchesini> a epi:Contributor , foaf:person ;
-  gndo:gender "f" ;
-  foaf:familyName "Marchesini" ;
-  foaf:givenName "Raffaella" .
+    gndo:gender "f" ;
+    foaf:familyName "Marchesini" ;
+    foaf:givenName "Raffaella" .
 
 <https://edh-www.adw.uni-heidelberg.de/edh/contributor/masci> a epi:Contributor , foaf:person ;
-  gndo:gender "f" ;
-  foaf:familyName "Masci" ;
-  foaf:givenName "Raffaella" .
+    gndo:gender "f" ;
+    foaf:familyName "Masci" ;
+    foaf:givenName "Raffaella" .
 
 <https://edh-www.adw.uni-heidelberg.de/edh/contributor/paci> a epi:Contributor , foaf:person ;
-  gndo:gender "f" ;
-  foaf:familyName "Paci" ;
-  foaf:givenName "Daniela" ;
-  foaf:title "Dr." .
+    gndo:gender "f" ;
+    foaf:familyName "Paci" ;
+    foaf:givenName "Daniela" ;
+    foaf:title "Dr." .
 
 <https://edh-www.adw.uni-heidelberg.de/edh/contributor/pastor> a epi:Contributor , foaf:person ;
-  gndo:gender "f" ;
-  foaf:familyName "Pastor" ;
-  foaf:givenName "Simone" .
+    gndo:gender "f" ;
+    foaf:familyName "Pastor" ;
+    foaf:givenName "Simone" .
 
 <https://edh-www.adw.uni-heidelberg.de/edh/contributor/platz> a epi:Contributor , foaf:person ;
-  gndo:gender "m" ;
-  foaf:familyName "Platz" ;
-  foaf:givenName "Sebastian" .
+    gndo:gender "m" ;
+    foaf:familyName "Platz" ;
+    foaf:givenName "Sebastian" .
 
 <https://edh-www.adw.uni-heidelberg.de/edh/contributor/scheithauer> a epi:Contributor , foaf:person ;
-  foaf:familyName "Scheithauer" ;
-  foaf:givenName "Andrea" ;
-  foaf:title "Dr." .
+    foaf:familyName "Scheithauer" ;
+    foaf:givenName "Andrea" ;
+    foaf:title "Dr." .
 
 <https://edh-www.adw.uni-heidelberg.de/edh/contributor/schmidt> a epi:Contributor , foaf:person ;
-  foaf:familyName "Schmidt" ;
-  foaf:givenName "Manfred" ;
-  gndo:gender "m" ;
-  foaf:title "Dr." .
+    foaf:familyName "Schmidt" ;
+    foaf:givenName "Manfred" ;
+    gndo:gender "m" ;
+    foaf:title "Dr." .
 
 <https://edh-www.adw.uni-heidelberg.de/edh/contributor/siegl> a epi:Contributor , foaf:person ;
-  gndo:gender "f" ;
-  foaf:familyName "Siegl" ;
-  foaf:givenName "Kathrin" .
+    gndo:gender "f" ;
+    foaf:familyName "Siegl" ;
+    foaf:givenName "Kathrin" .
 
 <https://edh-www.adw.uni-heidelberg.de/edh/contributor/vanderbilt> a epi:Contributor , foaf:person ;
-  gndo:gender "m" ;
-  foaf:familyName "Vanderbilt" ;
-  foaf:givenName "Scott" .
+    gndo:gender "m" ;
+    foaf:familyName "Vanderbilt" ;
+    foaf:givenName "Scott" .
 
 <https://edh-www.adw.uni-heidelberg.de/edh/contributor/wesch> a epi:Contributor , foaf:person ;
-  gndo:gender "f" ;
-  foaf:familyName "Wesch-Klein" ;
-  foaf:givenName "Gabriele" ;
-  foaf:title "Prof. Dr." .
+    gndo:gender "f" ;
+    foaf:familyName "Wesch-Klein" ;
+    foaf:givenName "Gabriele" ;
+    foaf:title "Prof. Dr." .
 
 <https://edh-www.adw.uni-heidelberg.de/edh/contributor/witschel> a epi:Contributor , foaf:person ;
-  foaf:familyName "Witschel" ;
-  foaf:givenName "Christian" ;
-  foaf:title "Prof. Dr." ;
-  gndo:gender "m" ;
-  owl:sameAs <http://viaf.org/viaf/24913423> , <http://d-nb.info/gnd/121459179> , <https://orcid.org/0000-0002-7078-5419> ;
-  foaf:mbox "christian.witschel@zaw.uni-heidelberg.de" .
+    foaf:familyName "Witschel" ;
+    foaf:givenName "Christian" ;
+    foaf:title "Prof. Dr." ;
+    gndo:gender "m" ;
+    owl:sameAs <http://viaf.org/viaf/24913423> , <http://d-nb.info/gnd/121459179> , <https://orcid.org/0000-0002-7078-5419> ;
+    foaf:mbox "christian.witschel@zaw.uni-heidelberg.de" .

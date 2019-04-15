@@ -1,49 +1,46 @@
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix lawd: <http://lawd.info/ontology/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix epi: <https://edh-www.adw.uni-heidelberg.de/edh/ontology#> .
 
 <https://edh-www.adw.uni-heidelberg.de/edh/social_status/augustales> a epi:Socialstatus ;
-  skos:sameAs <https://www.wikidata.org/wiki/Q426032> ;
-  rdfs:seeAlso <https://en.wikipedia.org/wiki/Sodales_Augustales> ;
-  skos:prefLabel "Augustales" .
+    skos:sameAs <https://www.wikidata.org/wiki/Q426032> ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Sodales_Augustales> ;
+    skos:prefLabel "Augustales" .
 
 <https://edh-www.adw.uni-heidelberg.de/edh/social_status/decurial_order> a epi:Socialstatus ;
-  rdfs:seeAlso <https://en.wikipedia.org/wiki/Decurion_(Roman_cavalry_officer)> ;
-  skos:prefLabel "decurial order, holders of higher local offices" .
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Decurion_(Roman_cavalry_officer)> ;
+    skos:prefLabel "decurial order, holders of higher local offices" .
 
 <https://edh-www.adw.uni-heidelberg.de/edh/social_status/imperial_household> a epi:Socialstatus ;
-  rdfs:seeAlso <https://en.wikipedia.org/wiki/Roman_emperor> ;
-  skos:prefLabel "emperor / imperial household" .
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Roman_emperor> ;
+    skos:prefLabel "emperor / imperial household" .
 
 <https://edh-www.adw.uni-heidelberg.de/edh/social_status/equestrian_order> a epi:Socialstatus ;
-  skos:sameAs <https://www.wikidata.org/wiki/Q122166> ;
-  rdfs:seeAlso <https://en.wikipedia.org/wiki/Equites> ;
-  skos:prefLabel "equestrian order" .
+    skos:sameAs <https://www.wikidata.org/wiki/Q122166> ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Equites> ;
+    skos:prefLabel "equestrian order" .
 
 <https://edh-www.adw.uni-heidelberg.de/edh/social_status/freedmen_freedwomen> a epi:Socialstatus ;
-  skos:sameAs <https://www.wikidata.org/wiki/Q841571> ;
-  rdfs:seeAlso <https://en.wikipedia.org/wiki/Freedman> ;
-  skos:prefLabel "freedmen / freedwomen" .
+    skos:sameAs <https://www.wikidata.org/wiki/Q841571> ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Freedman> ;
+    skos:prefLabel "freedmen / freedwomen" .
 
 <https://edh-www.adw.uni-heidelberg.de/edh/social_status/lower_local_officials> a epi:Socialstatus ;
-  skos:prefLabel "lower local offices; administration of imperial holdings" .
+    skos:prefLabel "lower local offices; administration of imperial holdings" .
 
 <https://edh-www.adw.uni-heidelberg.de/edh/social_status/military_personnel> a epi:Socialstatus ;
-  rdfs:seeAlso <https://en.wikipedia.org/wiki/Roman_army> ;
-  skos:prefLabel "military personnel" .
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Roman_army> ;
+    skos:prefLabel "military personnel" .
 
 <https://edh-www.adw.uni-heidelberg.de/edh/social_status/rulers_foreign> a epi:Socialstatus ;
-  skos:sameAs <https://www.wikidata.org/wiki/Q1401333> ;
-  skos:prefLabel "rulers (foreign)" .
+    skos:sameAs <https://www.wikidata.org/wiki/Q1401333> ;
+    skos:prefLabel "rulers (foreign)" .
 
 <https://edh-www.adw.uni-heidelberg.de/edh/social_status/senatorial_order> a epi:Socialstatus ;
-  skos:sameAs <https://www.wikidata.org/wiki/Q20056508> ;
-  rdfs:seeAlso <https://en.wikipedia.org/wiki/Roman_Senate> ;
-  skos:prefLabel "senatorial order" .
+    skos:sameAs <https://www.wikidata.org/wiki/Q20056508> ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Roman_Senate> ;
+    skos:prefLabel "senatorial order" .
 
 <https://edh-www.adw.uni-heidelberg.de/edh/social_status/slaves> a epi:Socialstatus ;
-  rdfs:seeAlso <https://en.wikipedia.org/wiki/Slavery_in_ancient_Rome> ;
-  skos:prefLabel "slaves" .
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Slavery_in_ancient_Rome> ;
+    skos:prefLabel "slaves" .

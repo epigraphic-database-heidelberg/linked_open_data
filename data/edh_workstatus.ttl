@@ -1,28 +1,20 @@
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix osgeo: <http://data.ordnancesurvey.co.uk/ontology/geometry/> .
-@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
-@prefix gn: <http://www.geonames.org/ontology#> .
-@prefix lawd: <http://lawd.info/ontology/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix epi: <https://edh-www.adw.uni-heidelberg.de/edh/ontology#> .
 
 <http://edh-www.adw.uni-heidelberg.de/edh/workstatus/completed_no_image> a epi:Workstatus ;
-  skos:prefLabel "completed - no image"@en .
+    skos:prefLabel "completed - no image"@en .
 
 <http://edh-www.adw.uni-heidelberg.de/edh/workstatus/completed_checked_with_drawing> a epi:Workstatus ;
-  skos:prefLabel "completed - checked with drawing"@en .
+    skos:prefLabel "completed - checked with drawing"@en .
 
 <http://edh-www.adw.uni-heidelberg.de/edh/workstatus/completed_checked_with_photo> a epi:Workstatus ;
-  skos:prefLabel "completed - checked with photo"@en .
+    skos:prefLabel "completed - checked with photo"@en .
 
 <http://edh-www.adw.uni-heidelberg.de/edh/workstatus/completed_checked_through_autopsy> a epi:Workstatus ;
-  skos:prefLabel "completed - checked through autopsy"@en .
+    skos:prefLabel "completed - checked through autopsy"@en .
 
 <http://edh-www.adw.uni-heidelberg.de/edh/workstatus/completed_checked_through_squeeze> a epi:Workstatus ;
-  skos:prefLabel "completed - checked through squeeze"@en .
+    skos:prefLabel "completed - checked through squeeze"@en .
 
 <http://edh-www.adw.uni-heidelberg.de/edh/workstatus/provisional> a epi:Workstatus ;
-  skos:prefLabel "provisional"@en .
+    skos:prefLabel "provisional"@en .
