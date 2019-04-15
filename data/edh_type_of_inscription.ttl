@@ -1,0 +1,112 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix epi: <https://edh-www.adw.uni-heidelberg.de/edh/ontology#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_inscription/acclamation> a epi:TypeOfInscription ;
+    skos:prefLabel "Acclamation"@en ;
+    dcterms:description "Exclamations; Invocations. Campaign slogans, Congratulations, Aphorisms. Not in the case of Defixio or Invocations to God (see Prayer). Examples: vivas; spes in Deo. salvo episcopo Marciano."@en ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/typeins/lod/73> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_inscription/adnuntiatio> a epi:TypeOfInscription ;
+    skos:prefLabel "Adnuntiatio"@en ;
+    dcterms:description "Proclamation; Announcement (e.g. of munera). Not legal inscription (see Public/private legal inscription)"@en ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/typeins/lod/113> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_inscription/assignation_inscription> a epi:TypeOfInscription ;
+    skos:prefLabel "Assignation inscription"@en ;
+    dcterms:description "Allocation of assembly places and land. Examples: locus assignatus a. campum dedit"@en ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/typeins/lod/116> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_inscription/boundary_inscription> a epi:TypeOfInscription ;
+    skos:prefLabel "Boundary inscription"@en ;
+    dcterms:description "Boundary marks of all types; itinera privata. Also in the case of grave cippi, as long do not contain an Epitaph (cf. Cippus in the field 'Inscription type'). Not in the case of indications of distance (see Milestone). Examples: fines posuit (AE 1985, 0730). Iter precarium"@en ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/typeins/lod/96> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_inscription/building_dedicatory_inscription> a epi:TypeOfInscription ;
+    skos:prefLabel "Building / Dedicatory inscription"@en ;
+    dcterms:description "Also in the case of repaired monuments. Examples: aedem cum signo fecit, balneum restituit"@en ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/typeins/lod/86> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_inscription/calendar> a epi:TypeOfInscription ;
+    skos:prefLabel "Calendar"@en ; 
+    dcterms:description "Permanent calendar; List of all days of the year with indication of market days and holidays. Not Fasti or Feriale (see List)."@en ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/typeins/lod/361> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_inscription/defixio> a epi:TypeOfInscription ;
+    skos:prefLabel "Defixio"@en ; 
+    dcterms:description "Curse, Imprecations."@en ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/typeins/lod/76> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_inscription/elogium> a epi:TypeOfInscription ;
+    skos:prefLabel "Elogium"@en ; 
+    dcterms:description "Honorand in the nominative with list of deeds (cf. dagegen Label, Honorific inscription)."@en ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/typeins/lod/76> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_inscription/epitaph> a epi:TypeOfInscription ;
+    skos:prefLabel "Epitaph"@en ; 
+    dcterms:description "Not in the case of grave cippi, which state the size of the grave area (see Boundary inscription)."@en ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/typeins/lod/92> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_inscription/honorific_inscription> a epi:TypeOfInscription ;
+    skos:prefLabel "Honorific inscription"@en ; 
+    dcterms:description "Honorand in the dative (cf. dagegen Label, Elogium)."@en ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/typeins/lod/69> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_inscription/identification_inscription> a epi:TypeOfInscription ;
+    skos:prefLabel "Identification inscription"@en ; 
+    dcterms:description "Designation of objects / contents; labelling necessary for daily use (e.g. shop signs, tabulae lusoriae, sundials). Notes, Scrawlings, public writing exercises (not necessarily originally involved with the object). Not Acclamation, Label, Owner / artist inscription, Defixio, Prayer, Seat inscription."@en ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/typeins/lod/115> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_inscription/label> a epi:TypeOfInscription ;
+    skos:prefLabel "Label"@en ; 
+    dcterms:description "Designation of figürlichen Darstellung (in the case e.g. of graffiti, mosaics, reliefs, herms or statues). Not honorary in character (see Elogium, Honorific inscription). Examples: Bassus avos(!) (AE 1991, 0667a)"@en ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/typeins/lod/109> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_inscription/letter> a epi:TypeOfInscription ;
+    skos:prefLabel "Letter"@en ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/typeins/lod/402> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_inscription/list> a epi:TypeOfInscription ;
+    skos:prefLabel "List"@en ; 
+    dcterms:description "Lists of all sorts; Fasti (= Magistrate lists; also annals, e.g. AE 1978, 0062) or Feriale (= Celebrations of the past, sorted by year; cf. on the other hand Calender). Examples: List of sections of a route (CIL 02 (2. Aufl.) 14, 00038). Consul lists. Acta fratrum Arvalium; Kataster."@en ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/typeins/lod/108> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_inscription/mile_leaguestone> a epi:TypeOfInscription ;
+    skos:prefLabel "Mile-/Leaguestone"@en ; 
+    dcterms:description "Also in the case of distance measured in leugae."@en ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/typeins/lod/102> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_inscription/military_diploma> a epi:TypeOfInscription ;
+    skos:prefLabel "Military diploma"@en ; 
+    dcterms:description "Also privately issued tabulae honestae missionis. Examples: tabulae honestae missionis"@en ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/typeins/lod/91> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_inscription/Owner/artist_inscription> a epi:TypeOfInscription ;
+    skos:prefLabel "Owner/ artist inscription"@en ; 
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/typeins/lod/311> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_inscription/prayer> a epi:TypeOfInscription ;
+    skos:prefLabel "Prayer"@en ; 
+    dcterms:description "Name of the owner, the producer, the artist or the atelier; Name in the nominative (sc. 'fecit'), in Genitivus Possessivus or sometimes in the accusative. Certificate. Also for the specifiaction of place or date of production; Stamp of an eye specialist (so far as the doctor is mentioned). Not in the case of Seat inscription. Examples: P(ubli) Lur[i] Hedyla[li] (AE 1967, 0071b). ex officina"@en ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/typeins/lod/85> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_inscription/private_legal_inscription> a epi:TypeOfInscription ;
+    skos:prefLabel "Private legal inscription"@en ; 
+    dcterms:description "Made by a private person and in private matters. Also contracts and agreements. Examples: Will."@en ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/typeins/lod/49> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_inscription/public_legal_inscription> a epi:TypeOfInscription ;
+    skos:prefLabel "Public legal inscription"@en ; 
+    dcterms:description "Made by an institution or a person in that person's public function. Also contracts and agreements. Examples: City law. Senatus consultum"@en ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/typeins/lod/5> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_inscription/seat_inscription> a epi:TypeOfInscription ;
+    skos:prefLabel "Seat inscription"@en ; 
+    dcterms:description "Designation of the holder of a specific seat in e.g. the theatre (cf. on the other hand Identification inscription and Owner / artist inscription)."@en ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/typeins/lod/111> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/type_of_inscription/votive_inscription> a epi:TypeOfInscription ;
+    skos:prefLabel "Votive inscription"@en ; 
+    dcterms:description "Dedication to a deity (cf. on the other hand Prayer)."@en ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/typeins/lod/372> .
