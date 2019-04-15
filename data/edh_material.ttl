@@ -1,0 +1,281 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix epi: <https://edh-www.adw.uni-heidelberg.de/edh/ontology#> .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/marble> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/48> , <https://en.wikipedia.org/wiki/Marble> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q40861> ;
+    skos:prefLabel "Marble"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/basalt> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/16> , <https://en.wikipedia.org/wiki/Basalt> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q43338> ;
+    skos:prefLabel "Basalt"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/granite> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/11> , <https://en.wikipedia.org/wiki/Granite> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q41177> ;
+    skos:prefLabel "Granite"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/porphyry> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/25> , <https://en.wikipedia.org/wiki/Porphyry_(geology)> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q337238> ;
+    skos:prefLabel "Porphyry"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/syenite> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/13> , <https://en.wikipedia.org/wiki/Syenite> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q329118> ;
+    skos:prefLabel "Syenite"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/gneiss> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/73> , <https://en.wikipedia.org/wiki/Gneiss> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q166409> ;
+    skos:prefLabel "Gneiss"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/quartzite> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/51> , <https://en.wikipedia.org/wiki/Quartzite> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q237883> ;
+    skos:prefLabel "Quartzite"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/slate> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/52> , <https://en.wikipedia.org/wiki/Slate> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q207079> ;
+    skos:prefLabel "Slate"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/limestone> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/67> , <https://en.wikipedia.org/wiki/Limestone> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q23757> ;
+    skos:prefLabel "Limestone"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/conglomerate> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/74> , <https://en.wikipedia.org/wiki/Conglomerate_(geology)> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q191704> ;
+    skos:prefLabel "Conglomerate"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/sandstone> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/104> , <https://en.wikipedia.org/wiki/Sandstone> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q13085> ;
+    skos:prefLabel "Sandstone"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/calcareous_tuff> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/78> , <https://en.wikipedia.org/wiki/Tuff> ;
+    skos:prefLabel "Calcareous Tuff"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/volcanic_tuff> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/98> , <https://en.wikipedia.org/wiki/Tuff> ;
+    skos:prefLabel "Volcanic Tuff"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/travertine> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/71> , <https://en.wikipedia.org/wiki/Travertine> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q187156> ;
+    skos:prefLabel "Travertine"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/minerals> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/87> , <https://en.wikipedia.org/wiki/Mineral> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q7946> ;
+    skos:prefLabel "Minerals"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/soapstone> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/41> , <https://en.wikipedia.org/wiki/Soapstone> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q707896> ;
+    skos:prefLabel "Soapstone"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/metals> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/107> , <https://en.wikipedia.org/wiki/Metal> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q11426> ;
+    skos:prefLabel "Metals"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/lead> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/108> , <https://en.wikipedia.org/wiki/Lead> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q708> ;
+    skos:prefLabel "Lead"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/bronze> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/109> , <https://en.wikipedia.org/wiki/Bronze> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q34095> ;
+    skos:prefLabel "Bronze"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/iron> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/111> , <https://en.wikipedia.org/wiki/Iron> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q677> ;
+    skos:prefLabel "Iron"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/gold> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/112> , <https://en.wikipedia.org/wiki/Gold> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q897> ;
+    skos:prefLabel "Gold"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/copper> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/113> , <https://en.wikipedia.org/wiki/Copper> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q753> ;
+    skos:prefLabel "Copper"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/brass> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/114> , <https://en.wikipedia.org/wiki/Brass> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q39782> ;
+    skos:prefLabel "Brass"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/silver> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/115> , <https://en.wikipedia.org/wiki/Silver> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q1090> ;
+    skos:prefLabel "Silver"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/tin> a epi:Material ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Tin> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q1096> ;
+    skos:prefLabel "Tin"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/amber> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/119> , <https://en.wikipedia.org/wiki/Amber> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q25381> ;
+    skos:prefLabel "Amber"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/ivory> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/120> , <https://en.wikipedia.org/wiki/Ivory> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q82001> ;
+    skos:prefLabel "Ivory"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/glass> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/122> , <https://en.wikipedia.org/wiki/Glass> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q11469> ;
+    skos:prefLabel "Glass"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/wood> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/123> , <https://en.wikipedia.org/wiki/Wood> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q287> ;
+    skos:prefLabel "Wood"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/bone> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/124> ;
+    skos:prefLabel "Bone"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/clay> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/131> , <https://en.wikipedia.org/wiki/Clay> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q42302> ;
+    skos:prefLabel "Clay"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/jet> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/67> , <https://en.wikipedia.org/wiki/Jet_(lignite)> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q543694> ;
+    skos:prefLabel "Jet"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/nenfro> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/81> , <https://en.wikipedia.org/wiki/Nenfro> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q3338048> ;
+    skos:prefLabel "Nenfro"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/breccia> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/735> , <https://en.wikipedia.org/wiki/Breccia> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q191250> ;
+    skos:prefLabel "Breccia"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/molasse> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/79> , <https://en.wikipedia.org/wiki/Molasse> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q304080> ;
+    skos:prefLabel "Molasse"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/oolite> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/70> , <https://en.wikipedia.org/wiki/Oolite> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q632078> ;
+    skos:prefLabel "Oolite"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/spongolite> a epi:Material ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Spongolite> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q4438015> ;
+    skos:prefLabel "Spongolite"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/plaster> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/126> , <https://en.wikipedia.org/wiki/Plaster> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q274988> ;
+    skos:prefLabel "Plaster"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/peperino> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/82> , <https://en.wikipedia.org/wiki/Peperino> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q166987> ;
+    skos:prefLabel "Peperino"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/andesite> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/15> , <https://en.wikipedia.org/wiki/Andesite> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q181908> ;
+    skos:prefLabel "Andesite"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/trachytes> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/83> , <https://en.wikipedia.org/wiki/Trachyte> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q332748> ;
+    skos:prefLabel "Trachytes"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/agate> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/88> , <https://en.wikipedia.org/wiki/Agate> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q123314> ;
+    skos:prefLabel "Agate"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/haematite> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/90> , <https://en.wikipedia.org/wiki/Hematite> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q103223> ;
+    skos:prefLabel "Haematite"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/heliotrope> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/91> , <https://en.wikipedia.org/wiki/Heliotrope_(mineral)> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q430174> ;
+    skos:prefLabel "Heliotrope"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/jasper> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/89> , <https://en.wikipedia.org/wiki/Jasper> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q201175> ;
+    skos:prefLabel "Jasper"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/carnelian> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/92> , <https://en.wikipedia.org/wiki/Carnelian> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q324369> ;
+    skos:prefLabel "Carnelian"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/lapislazuli> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/93> , <https://en.wikipedia.org/wiki/Lapis_lazuli> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q216798> ;
+    skos:prefLabel "Lapislazuli"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/magnetite> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/94> , <https://en.wikipedia.org/wiki/Magnetite> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q181395> ;
+    skos:prefLabel "Magnetite"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/onyx> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/95> , <https://en.wikipedia.org/wiki/Onyx> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q180884> ;
+    skos:prefLabel "Onyx"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/opal> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/96> , <https://en.wikipedia.org/wiki/Opal> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q171058> ;
+    skos:prefLabel "Opal"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/sardonyx> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/97> , <https://en.wikipedia.org/wiki/Onyx> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q180884> ;
+    skos:prefLabel "Sardonyx"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/enamel> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/121> , <https://en.wikipedia.org/wiki/Vitreous_enamel> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q213371> ;
+    skos:prefLabel "Enamel"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/leather> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/125> , <https://en.wikipedia.org/wiki/Leather> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q286> ;
+    skos:prefLabel "Leather"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/stucco> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/126> , <https://en.wikipedia.org/wiki/Stucco> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q33526> ;
+    skos:prefLabel "Stucco"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/wax> a epi:Material ;
+    rdfs:seeAlso <https://www.eagle-network.eu/voc/material/lod/133> , <https://en.wikipedia.org/wiki/Wax> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q124695> ;
+    skos:prefLabel "Wax"@en .
+
+<http://edh-www.adw.uni-heidelberg.de/edh/material/rocks> a epi:Material ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Rock_(geology)> ;
+    skos:sameAs <https://www.wikidata.org/wiki/Q8063> ;
+    skos:prefLabel "Rocks"@en .
+    
