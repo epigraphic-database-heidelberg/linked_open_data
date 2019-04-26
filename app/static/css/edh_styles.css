@@ -1,0 +1,128 @@
+/*
+ * mobile style sheets
+*/
+html {
+    position: relative;
+    min-height: 100%;
+    min-width: 100%;
+
+}
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 40px;
+    font-family: 'Yrsa', serif;
+    font-weight: 100;
+    font-size: 1.75em;
+    color: #333;
+}
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+}
+h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2em;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #f5f5f5;
+}
+.footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    font-size: 0.8em;
+}
+.text-muted {
+    padding-top: 10px;
+    text-align: center;
+    color: #777;
+}
+a {
+    color: #1F6B3B;
+}
+a:hover {
+    color: #1F6B3B;
+    text-decoration: none;
+}
+.navbar {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #333;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    background-color: #d4f6d4;
+}
+.navbar-toggle {
+    border-color: #1F6B3B;
+}
+.navbar-toggle .icon-bar {
+    background-color: #1F6B3B;
+}
+.navbar-brand {
+    font-size: 1em;
+}
+.container.head {
+    font-size:1.1em;
+    height:50px;
+    line-height:50px;
+    background-color: #1F6B3B;
+    color:#fff;
+}
+.container.head > a {
+    color:#fff;
+    text-decoration:none;
+}
+.dropdown-menu>li {
+    font-size: 1.2em;
+}
+.detail_block {
+    border-left: 5px solid #ccc;
+    padding-left: 0px;
+    margin-top: 2em;
+}
+.detail_block_header {
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    background-color: #d4f6d4;
+    padding-left: -5px;
+    font-weight: bold;
+    vertical-align: middle;
+    height:2em;
+}
+#beta-banner-wrapper{
+    position:absolute;right:0;top:0;
+}
+#beta-banner {
+    height: 50px;
+}
+
+
+
+/*
+ * wide screen style sheets
+*/
+@media (min-width: 768px) {
+    html {
+        overflow-y:scroll;
+    }
+    .container.head {
+        font-size:2em;
+        height:120px;
+        line-height:120px;
+        margin-right:auto;
+        margin-left:auto;
+    }
+    .wrapper.head {
+        background-color: #1F6B3B;
+    }
+    #beta-banner {
+        height: 120px;
+    }
+}
