@@ -11,9 +11,25 @@ def create_app(test_config=None):
     app.config.from_object(Config)
     bootstrap = Bootstrap(app)
 
+    #
+    # Blueprints
+    #
+    from . import inscription
+    app.register_blueprint(inscription.bp)
+
+    #
+    # Routes
+    #
     @app.route('/home')
     def home():
         return render_template('home.html', title="Home")
     app.add_url_rule('/', endpoint='home')
+
+    #
+    # 404 page
+    #
+    @app.errorhandler(404)
+    def page_not_found(e):
+        return render_template('404.html'), 404
 
     return app
