@@ -1,0 +1,17 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix epi: <https://edh-www.adw.uni-heidelberg.de/edh/ontology#> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/religion/names_of_pagan_deities> a epi:Religion ;
+    skos:prefLabel "E.g.: 'Deo Apollini', 'Genio huius loci', 'templum Herculis', 'aram Providentiae Augustae', 'Numinibus Augustorum'; not: 'Dis Manibus' on grave inscriptions, divine rulers (e.g. 'Divae Sabinae'), 'in honorem domus divinae', 'devotus numini maiestatique'"@en .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/religion/cult_functions_pagan> a epi:Religion ;
+    skos:prefLabel "E.g.: 'sevir Augustalis', 'flaminicae perpetuae', 'haruspex', 'fratri Arvali'; not: 'pontifex maximus' from 2nd cent BCE"@en .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/religion/judaism_christianity> a epi:Religion ;
+    skos:prefLabel "'vivas in Deo', 's(an)c(t)ae Mariae', 'ecclesia', 'in pace', 'decessit', 'dormit'; also in the case of: Christus monogram, signs of the cross"@en .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/religion/cult_functions_jewish_christian> a epi:Religion ;
+    skos:prefLabel "'diaconi', 'archiepiscopo', 'presbyter'"@en .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/religion/magic_charms> a epi:Religion ;
+    skos:prefLabel "Defixiones (Curse tablets)"@en .
