@@ -1,0 +1,38 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix epi: <https://edh-www.adw.uni-heidelberg.de/edh/ontology#> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/engraving_technique/chiselled> a epi:EngravingTechnique ;
+    skos:prefLabel "applies to inscriptions on stone; no paint remnants in the letter beds"@en .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/engraving_technique/chiselled_with_remnants_of_paint_> a epi:EngravingTechnique ;
+    skos:prefLabel "applies to inscriptions on stone; remnants (usually red) of paint preserved, with which the letters were retraced"@en .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/engraving_technique/engraved> a epi:EngravingTechnique ;
+    skos:prefLabel "applies to inscriptions e.g. on metal or glass; incising through paring away parts of the surface (Material is removed in contrast to punching or scratching)"@en .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/engraving_technique/painted_dipinto> a epi:EngravingTechnique ;
+    skos:prefLabel "a sketched or painted (as opposed to engraved) inscription"@en .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/engraving_technique/scratched_graffito> a epi:EngravingTechnique ;
+    skos:prefLabel "a deliberate mark made by scratching or engraving on a large surface such as a wall"@en .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/engraving_technique/stamped> a epi:EngravingTechnique ;
+    skos:prefLabel "impression made upon bricks or mudbrick"@en .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/engraving_technique/punched> a epi:EngravingTechnique ;
+    skos:prefLabel "applies to inscriptions e.g. on metal or leather; working method which produces no parings e.g. of (cold) metal by means of a punching stamp (punch) (cf. in contrast "engraved")"@en .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/engraving_technique/openwork_cut_letters> a epi:EngravingTechnique ;
+    skos:prefLabel "applies to inscription bearing materials e.g. metal; openwork cut material; letters appear in a positive fashion (letters are left cut out)"@en .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/engraving_technique/appliqued_litterae_aureae_in_letter_beds> a epi:EngravingTechnique ;
+    skos:prefLabel "applies to inscriptions on stone; gold plated bronze letters (cast); dowelled into the stone in letter beds created for this purpose"@en .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/engraving_technique/appliqued_litterae_aureae_fastened_with_dowels> a epi:EngravingTechnique ;
+    skos:prefLabel "applies to inscriptions on stone; gold plated bronze letters (cut from plate); dowelled directly into the stone without letter beds"@en .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/engraving_technique/appliqued_no_litterae_aureae> a epi:EngravingTechnique ;
+    skos:prefLabel "applies to inscriptions on various different inscriptions bearers, e.g. leather belts; individually finished letters; different methods of attachment, e.g. riveted"@en .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/engraving_technique/mosaic> a epi:EngravingTechnique ;
+    skos:prefLabel "a piece of art or image made from the assembling of small pieces of colored glass, stone, or other materials"@en .
