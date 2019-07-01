@@ -1,0 +1,58 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix epi: <https://edh-www.adw.uni-heidelberg.de/edh/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/language/celtic> a epi:Language ;
+    rdfs:comment "The Celtic languages are a group of related languages descended from Proto-Celtic. They form a branch of the Indo-European language family. During the 1st millennium BC, Celtic languages were spoken across much of Europe and in Asia Minor."@en ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Celtic_languages> ;
+    owl:sameAs <https://www.wikidata.org/wiki/Q25293> ;
+    skos:prefLabel "Celtic"@en .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/language/greek> a epi:Language ;
+    rdfs:comment "The Ancient Greek language includes the forms of Greek used in Ancient Greece and the ancient world from around the 9th century BCE to the 6th century CE. "@en ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Ancient_Greek> ;
+    owl:sameAs <https://www.wikidata.org/wiki/Q35497> ;
+    skos:prefLabel "Greek"@en .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/language/hebrew> a epi:Language ;
+    rdfs:comment "Hebrew is a Northwest Semitic language native to Israel."@en ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Hebrew_language> ;
+    owl:sameAs <https://www.wikidata.org/wiki/Q9288> ;
+    skos:prefLabel "Hebrew"@en .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/language/iberian> a epi:Language ;
+    owl:sameAs <https://www.wikidata.org/wiki/Q855215> ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Iberian_language> ;
+    rdfs:comment "The Iberian language was the language of an indigenous pre-Migration Period people identified by Greek and Roman sources who lived in the eastern and southeastern regions of the Iberian Peninsula."@en ;
+    skos:prefLabel "Iberian"@en .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/language/italic> a epi:Language ;
+	rdfs:comment "The Italic languages are a branch of the Indo-European language family, whose earliest known members were spoken in the Italian peninsula in the first millennium BC."@en ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Italic_languages> ;
+    owl:sameAs <https://www.wikidata.org/wiki/Q131848> ;
+    skos:prefLabel "Italic"@en .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/language/latin> a epi:Language ;
+    rdfs:comment "Latin is a classical language belonging to the Italic branch of the Indo-European languages."@en ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Latin> ;
+    owl:sameAs <https://www.wikidata.org/wiki/Q397> ;
+    skos:prefLabel "Latin"@en .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/language/numidian> a epi:Language ;
+    rdfs:comment "Numidian, also known as Old Libyan, was the language of the Maesulians of the eastern part of ancient Numidia during the Pre-Roman era in northern Africa."@en ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Numidian_language> ;
+    owl:sameAs <https://www.wikidata.org/wiki/Q35761> ;
+    skos:prefLabel "Numidian"@en .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/language/palmyrenic> a epi:Language ;
+    rdfs:comment "Palmyrene or Palmyrenean was a Western Aramaic dialect spoken in the city of Palmyra, Syria, in the early centuries AD. The development of cursive versions of Aramaic led to the creation of the Palmyrene alphabet."@en ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Palmyrene_dialect> ;
+    owl:sameAs <https://www.wikidata.org/wiki/Q1510113> ;
+    skos:prefLabel "Palmyrenic"@en .
+
+<https://edh-www.adw.uni-heidelberg.de/edh/language/phoenician_punic> a epi:Language ;
+    rdfs:comment "The Punic language, also called Carthaginian or Phoenicio-Punic, is an extinct variety of the Phoenician language, a Canaanite language of the Semitic family. It was spoken in the Carthaginian empire in Northwest Africa and several Mediterranean islands by the Punic people throughout Classical antiquity, from the 8th century BC to the 5th century AD."@en ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Punic_language> ;
+    owl:sameAs <https://www.wikidata.org/wiki/Q535958> ;
+    skos:prefLabel "Phoenician-Punic"@en .
