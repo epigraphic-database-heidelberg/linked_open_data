@@ -4,7 +4,7 @@
 <https://edh-www.adw.uni-heidelberg.de/edh/engraving_technique/chiselled> a epi:EngravingTechnique ;
     skos:prefLabel "applies to inscriptions on stone; no paint remnants in the letter beds"@en .
 
-<https://edh-www.adw.uni-heidelberg.de/edh/engraving_technique/chiselled_with_remnants_of_paint_> a epi:EngravingTechnique ;
+<https://edh-www.adw.uni-heidelberg.de/edh/engraving_technique/chiselled_with_remnants_of_paint> a epi:EngravingTechnique ;
     skos:prefLabel "applies to inscriptions on stone; remnants (usually red) of paint preserved, with which the letters were retraced"@en .
 
 <https://edh-www.adw.uni-heidelberg.de/edh/engraving_technique/engraved> a epi:EngravingTechnique ;
